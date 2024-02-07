@@ -36,7 +36,7 @@ this is all for it
 - [x] good 
 my name is ==unkown==
 ```{"about you" : "johan liberet"}```
-~~johan is de*d~~
+~~johan is a protagnist~~
 
 ### interests 
 
