@@ -21,14 +21,9 @@ background-color: lightsalmon;
 }
 
 .mid{
-    text-align: left;
-}
-.end{
     text-align: center;
 }
-.wrong{
-    text-align: left;
-}
+
 .first{
 background-color: lightgreen;
 border: 3pt solid black;
