@@ -1,0 +1,138 @@
+.about{
+    margin-right: 5vh;  
+    margin-top: 7vh;
+}
+.tips{
+    font-size: large;
+    font-family: monospace;
+    font-weight: bolder;
+    font-style: oblique;
+    color: rebeccapurple;
+    list-style-type: square;
+    line-height: 3vh;
+}
+.cell{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    caret-color:transparent;
+}
+.topleft{
+    border-top: 4px solid black; 
+    border-left: 4px solid black; 
+    border-right: 2px solid black; 
+    border-bottom: 2px solid black;
+}
+.topmiddle{
+    border-top: 4px solid black; 
+    border-right: 2px solid black; 
+    border-bottom: 2px solid black;
+}
+.topright{
+    border-top: 4px solid black; 
+    border-right: 4px solid black; 
+    border-bottom: 2px solid black;
+}
+.left{
+    border-left: 4px solid black; 
+    border-right: 2px solid black; 
+    border-bottom: 2px solid black;
+}
+.middle{
+    border-right: 2px solid black; 
+    border-bottom: 2px solid black;
+}
+.right{
+    border-right: 4px solid black; 
+    border-bottom: 2px solid black;
+}
+.bottomleft{
+    border-left: 4px solid black; 
+    border-right: 2px solid black; 
+    border-bottom: 4px solid black;
+}
+.bottommiddle{
+    border-right: 2px solid black; 
+    border-bottom: 4px solid black;
+}
+.bottomright{
+    border-right: 4px solid black; 
+    border-bottom: 4px solid black;
+}
+.level{
+    font-size: 30px;
+}
+.board{
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+.game{
+    display: flex;
+}
+.index{
+color: darksalmon;
+font-weight: bold;
+text-align: center;
+width: 1vw;
+}
+.feature{
+    margin-left: 2vw;
+    margin-top: 5vh;
+    padding: 0px;
+    border: 2px solid black;
+}
+.option{
+    margin-top: 3vh;
+    border: 3px solid black;
+    color: darkgoldenrod;
+    font-weight: bolder;
+    background-color: cornsilk;
+    padding: 0%;
+}
+.option:hover{
+    width: 70px;
+    height: 70px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.icon{
+    text-align: center;
+    font-weight: bolder;
+}
+.bar{
+    border: 2px solid black;
+    height: 100%;
+}
+.attribute{
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid black;
+    width: 1vw;
+    height: 1vh;
+    background-color: burlywood;
+}
+.numpad{
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid black;
+    width: 2vw;
+    height: 15vh;
+    text-align: center; 
+    font-size: larger;
+    font-weight: bolder;
+    font-family: cursive;
+    background-color: aquamarine;
+}
+.new{
+    height: 101%;
+    width: 102%;
+    background-color: lightseagreen;
+    border: none;
+    margin: -1px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
