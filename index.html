@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play 2D games</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo_name">
+            <a href="index.html">2D_BoardGames.com</a>
+        </div>
+    </div>
+    <div class="games">
+        <div class="icons">
+            <div>
+                <figure>
+                    <button class="gamelink" onmouseover="bold(1)" onclick="play(1)"
+                        onmouseout="document.getElementById('info').innerHTML=''">
+                        <img src="Sukodu-img.jpg" alt="sudoku" height="200px">
+                    </button>
+                    <figcaption class="caption">
+                        SUDOKU game
+                    </figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <button class="gamelink" onmouseover="bold(2)" onclick="play(2)"
+                        onmouseout="document.getElementById('info').innerHTML=''">
+                        <img src="2048.png" alt="2048" height="200px">
+                    </button>
+                    <figcaption class="caption">
+                        2048 Game
+                    </figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <button class="gamelink" onmouseover="bold(3)" onclick="play(3)"
+                        onmouseout="document.getElementById('info').innerHTML=''">
+                        <img src="tic-tac-toe.png" alt="tic-tac-toe" height="200px">
+                    </button>
+                    <figcaption class="caption">
+                        Tic-Tac-Toe game
+                    </figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <button class="gamelink" onmouseover="bold(4)" onclick="play(4)"
+                        onmouseout="document.getElementById('info').innerHTML=''">
+                        <img src="snake_mania.jpg" alt="snake_mania" height="200px" width="250px">
+                    </button>
+                    <figcaption class="caption">
+                        SNAKE-MANIA game
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div id="info">
+    </div>
+    <div id="Play" style="display: none;">
+        <a href="">PLAY NOW</a>
+    </div>
+    <script src="homepage.js"></script>
+</body>
+
+</html>

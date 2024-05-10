@@ -1,0 +1,105 @@
+body {
+    font-family: cursive;
+    text-align: center;
+    background-image: url(https://st2.depositphotos.com/3759469/6798/v/450/depositphotos_67982979-stock-illustration-horizontally-seamless-game-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 90px;
+}
+h3{
+    text-decoration: underline;
+    font-size: 30px;
+}
+ul{
+    text-decoration: italic;
+    justify-content: center;
+    list-style-type: none;
+    line-height: 30px;
+    font-size: large;
+    color: white;
+}
+hr {
+    width: 400px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: cursive;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#board {
+    width: 400px;
+    height: 400px;
+    background-color: #907761;
+    border: 5px solid rgb(164, 139, 101);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.tile {
+    height: 90px;
+    width: 90px;
+    border: 5px solid rgb(164, 139, 101);
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t2 {
+    background-color: #eee4da;
+    color: #727371;
+}
+.t4 {
+    background-color: #ece0ca;
+    color: #727371;
+}
+.t8 {
+    background-color: #f4b17a;
+    color: white;
+}
+.t16 {
+    background-color: #f59575;
+    color: white;
+}
+.t32 {
+    background-color: #f57c5f;
+    color: white;
+}
+.t64 {
+    background-color: #f65d3b;
+    color: white;
+}
+.t128 {
+    background-color: #edce71;
+    color: white;
+}
+.t256 {
+    background-color: #edcc63;
+    color: white;
+}
+.t512 {
+    background-color: #edc651;
+    color: white;
+}
+.t1024 {
+    background-color: #eec744;
+    color: white;
+}
+.t2048 {
+    background-color: #ecc230;
+    color: white;
+}
+.t4096 {
+    background-color: rgb(53, 48, 48);
+    color: white;
+}
